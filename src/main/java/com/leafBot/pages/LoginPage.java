@@ -64,6 +64,18 @@ public class LoginPage extends ProjectSpecificMethods{
 		verifyPartialText(eleVerifyErrMsg, data);
 		return this;
 	}
+
+	@Given("Added vy Saravana 1111(.*)")
+	public LoginPage verifyErrorMsg122(String data) {
+		verifyPartialText(eleVerifyErrMsg, data);
+		return this;
+	}
+
+	@Given("Add by Saravana 98983439(.*)")
+	public LoginPage verifyErrorMsg2(String data) {
+		verifyPartialText(eleVerifyErrMsg, data);
+		return this;
+	}
 	
 	
 }
